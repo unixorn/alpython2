@@ -1,2 +1,3 @@
 # alpython2
-alpine + Python 2 + Upgraded pip
+
+Alpine 3.8 + Python 2 + Upgraded pip
