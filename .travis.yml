@@ -8,5 +8,5 @@ install:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot README.md --allow-dupe --allow-redirect --white-list https://ipfs.io,https://img.shields.io,https://codeclimate.com/github/unixorn/alpython3
+  - awesome_bot README.md --allow-dupe --allow-redirect --white-list https://ipfs.io,https://img.shields.io,https://codeclimate.com/github/unixorn/alpython2
   - docker images | grep alpython2
