@@ -1,7 +1,12 @@
 language: ruby
+services:
+  - docker
 rvm:
   - 2.2
+install:
+  - docker build -t alpython2 .
 before_script:
   - gem install awesome_bot
 script:
   - awesome_bot README.md --allow-dupe --allow-redirect --white-list https://ipfs.io,https://img.shields.io,https://codeclimate.com/github/unixorn/alpython3
+  - docker images | grep alpython2
