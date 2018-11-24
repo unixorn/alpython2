@@ -9,3 +9,4 @@ Alpine 3.8 + Python 2 + Upgraded pip
 [![GitHub stars](https://img.shields.io/github/stars/unixorn/alpython2.svg)](https://github.com/unixorn/alpython2/stargazers)
 [![Code Climate](https://codeclimate.com/github/unixorn/alpython2/badges/gpa.svg)](https://codeclimate.com/github/unixorn/alpython2)
 [![Issue Count](https://codeclimate.com/github/unixorn/alpython2/badges/issue_count.svg)](https://codeclimate.com/github/unixorn/alpython2)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/alpython2/master.svg)](https://github.com/unixorn/alpython2)
