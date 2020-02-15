@@ -33,5 +33,4 @@ task :buildx do
   puts "Building #{CONTAINER_NAME}"
   sh %{ docker buildx build --platform linux/amd64,linux/arm/v7,linux/arm64 --push -t #{CONTAINER_NAME} .}
   sh %{ docker pull #{CONTAINER_NAME} }
-  sh %{ docker push #{CONTAINER_NAME} }
 end
